@@ -91,4 +91,31 @@ v. split string:
 
 .......
 
-5. 
+5. FORMAT STRING:...
+
+    In python we can not combine the string and numbers 
+     But using python format string we can combain the string and number
+          for example :
+            age = 23
+            txt = f"my name is john , i am {age}"
+            print(txt)
+
+......
+
+6. Python - Escape Characters:--
+
+  To insert characters that are illegal in a string, use an escape character.
+  An escape character is a backslash \ followed by the character you want to insert.
+  
+Code	Result
+\'	Single Quote	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed	
+\ooo	Octal value	
+\xhh	Hex value	
+
+.....
